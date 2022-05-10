@@ -1,10 +1,10 @@
-console.log('Aluno: Hariel Pereira Correia');
+console.log('Aluno: Carolina de Faria Coutinho');
 
 const {MongoClient} = require('mongodb');
 
 async function main(){
 
-    const uri = "mongodb://dswa5:dswa5@cluster0-shard-00-00.oqbir.mongodb.net:27017,cluster0-shard-00-01.oqbir.mongodb.net:27017,cluster0-shard-00-02.oqbir.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-rg0np8-shard-0&authSource=admin&retryWrites=true&w=majority";
+    const uri = "mongodb+srv://Carolina:coutinho@cluster0.msaww.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
  
     const client = new MongoClient(uri);
  
